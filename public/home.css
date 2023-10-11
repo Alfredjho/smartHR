@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.main-interface {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 15vh;
+}
+
+body {
+    height: 3000px;
+}
+
+.main-container {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15vh;
+    background-color: rgb(226, 242, 247);
+}
+
+.main-content {
+    width: 100%;
+}
+
+.imgMain {
+    margin-right: 4vh;
+    width: 20%;
+    background: url(./img/HR1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* .imgMain img {
+    width: 30%;
+    height: 100%;
+} */
