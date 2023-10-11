@@ -10,7 +10,7 @@
 <body>
 
 <section id="Home">
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" >
+    <nav class="navbar fixed-top navbar-expand-lg bg-light-subtle" >
     <div class="container-fluid">
         <a class="navbar-brand" href="#">SmartHR</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +41,12 @@
         <div class="main-container">
 
             <div class ="main-content">
-                <p class="text-start fw-bold" style ="font-size:8vh">Improving the</p>
-                <p class="text-start fw-bold" style ="font-size:8vh">Qualities.</p>
+                
+                <div class="text-nowrap bg-secondary" style="width: 40vh;">
+                     <p class="text-start fw-bold" style ="font-size:8vh; color:white">Improving</p>
+                </div>
+
+                <p class="text-start fw-bold" style ="font-size:8vh"> HR Qualities.</p>
 
                 <br>
                 <p class="text-start fs-4 fw-medium" style="color:grey">Integration | Colaboration | Powerful</p>
