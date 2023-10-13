@@ -40,7 +40,46 @@ body {
     background-position: center;
 }
 
-/* .imgMain img {
-    width: 30%;
-    height: 100%;
-} */
+.about-interface {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-card {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card img {
+    width: fit-content;
+    height: 15rem;
+}
+
+.personalValue {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.visionTitle, .missionTitle {
+    width:  45%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+}
+
+.vision, .mission {
+    width: 45%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision img , .mission img{
+    padding-top: 10vh;
+}

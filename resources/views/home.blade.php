@@ -22,11 +22,15 @@
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#Home">Home</a>
             </li>
+
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home">About Us</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home">FAQ</a>
+            </li>
         </ul>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
         </div>
     </div>
     </nav>
@@ -42,33 +46,110 @@
 
             <div class ="main-content">
                 
-                <div class="text-nowrap bg-secondary" style="width: 40vh;">
-                     <p class="text-start fw-bold" style ="font-size:8vh; color:white">Improving</p>
+                <div class="text-nowrap bg-secondary" style="width: 46.5vh;">
+                     <p class="text-start fw-bold" style ="font-size:8vh; color:white">IMPROVING</p>
                 </div>
 
-                <p class="text-start fw-bold" style ="font-size:8vh"> HR Qualities.</p>
+                <p class="text-start fw-bold" style ="font-size:8vh"> HR QUALITIES.</p>
 
                 <br>
-                <p class="text-start fs-4 fw-medium" style="color:grey">Integration | Colaboration | Powerful</p>
+                <p class="text-start fs-5 fw-light" style="color:grey">INTEGRATION | COLLABORATION | POWERFUL</p>
                 <br>
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control rounded-0 " id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <input type="password" class="form-control rounded-0" id="exampleInputPassword1">
                     </div>
-                    
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <br>
+                    <button type="submit" class="btn btn-outline-primary rounded-0 btn-lg">LOGIN</button>
                 </form>
             </div>
 
         </div>
 
     </div>
+
+</section>
+
+
+<section id="AboutUs">
+
+    <div class = "about-interface">
+        <p class="text-start fw-bold fs-1" style = "color: #565656"> WHAT IS SmartHR ?</p>
+    </div>
+
+    <div class = "about-card">
+        <div class="card" style="width: 15rem;">
+            <img src="./img/iconKMC.png" class="card-img-top" alt="KMC">
+            <div class="card-body" style = "background-color: #475360">
+                <p class="text-center card-text fw-bold" style = "color : white">KNOWLEDGE MANAGEMENT CENTER</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+            <img src="./img/iconTnD.png" class="card-img-top" alt="TND">
+            <div class="card-body" style = "background-color: #475360">
+                <p class="text-center card-text fw-bold" style = "color : white">TRAINING AND DEVELOPMENT</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+            <img src="./img/iconForum.png" class="card-img-top" alt="FORUM">
+            <div class="card-body" style = "background-color: #475360">
+                <p class="text-center card-text fw-bold" style = "color : white">FORUM AND DISCUSSIONS</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+            <img src="./img/iconSchedule.png" class="card-img-top" alt="SCHEDULE">
+            <div class="card-body" style = "background-color: #475360">
+                <p class="text-center card-text fw-bold" style = "color : white">SCHEDULE MANAGEMENT CENTER</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+            <img src="./img/iconDatabase.png" class="card-img-top" alt="DATABASE">
+            <div class="card-body" style = "background-color: #475360">
+                <p class="text-center card-text fw-bold" style = "color : white">COMPANY EMPLOYEE DATABASE</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class = "personalValue">
+
+    <div class = "vision" >
+        <div class = "visionTitle">
+                <p class="pe-4 text-start fw-bold" style ="font-size:8vh; color: #565656">OUR &nbsp; </p>
+                <div class="text-nowrap bg-secondary" style="width: 27vh; height: 12.5vh">
+                    <p class="text-start fw-bold" style ="font-size:8vh; color:white">VISION</p>
+                </div>
+        </div>
+
+        <img src="./img/vision.png" class="img-fluid" alt="vision">
+    </div>
+        
+
+
+    <div class = "mission" >
+        <div class = "missionTitle">
+            <p class="pe-4 text-start fw-bold" style ="font-size:8vh; color: #565656">OUR &nbsp; </p>
+            <div class="text-nowrap bg-secondary" style="width: 34vh;">
+                <p class="text-start fw-bold" style ="font-size:8vh; color:white">MISSION</p>
+             </div>
+        </div>
+
+        <img src="./img/mission.png" class="img-fluid" alt="mission">
+    </div>
+        
+
+    </div>
+    
 
 </section>
 
