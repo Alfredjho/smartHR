@@ -24,7 +24,7 @@
             </li>
 
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Home">About Us</a>
+            <a class="nav-link active" aria-current="page" href="#AboutUs">About Us</a>
             </li>
 
             <li class="nav-item">
@@ -46,7 +46,7 @@
 
             <div class ="main-content">
                 
-                <div class="text-nowrap bg-secondary" style="width: 46.5vh;">
+                <div class="text-nowrap" style="width: 46.5vh; background-color: #395E78">
                      <p class="text-start fw-bold" style ="font-size:8vh; color:white">IMPROVING</p>
                 </div>
 
@@ -84,37 +84,37 @@
     </div>
 
     <div class = "about-card">
-        <div class="card" style="width: 15rem;">
+        <div class="rounded-0 card" style="width: 15rem;">
             <img src="./img/iconKMC.png" class="card-img-top" alt="KMC">
-            <div class="card-body" style = "background-color: #475360">
+            <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">KNOWLEDGE MANAGEMENT CENTER</p>
             </div>
         </div>
 
-        <div class="card" style="width: 15rem;">
+        <div class="rounded-0 card" style="width: 15rem;">
             <img src="./img/iconTnD.png" class="card-img-top" alt="TND">
-            <div class="card-body" style = "background-color: #475360">
+            <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">TRAINING AND DEVELOPMENT</p>
             </div>
         </div>
 
-        <div class="card" style="width: 15rem;">
+        <div class="rounded-0 card" style="width: 15rem;">
             <img src="./img/iconForum.png" class="card-img-top" alt="FORUM">
-            <div class="card-body" style = "background-color: #475360">
+            <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">FORUM AND DISCUSSIONS</p>
             </div>
         </div>
 
-        <div class="card" style="width: 15rem;">
+        <div class="rounded-0 card" style="width: 15rem;">
             <img src="./img/iconSchedule.png" class="card-img-top" alt="SCHEDULE">
-            <div class="card-body" style = "background-color: #475360">
+            <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">SCHEDULE MANAGEMENT CENTER</p>
             </div>
         </div>
 
-        <div class="card" style="width: 15rem;">
+        <div class="rounded-0 card" style="width: 15rem;">
             <img src="./img/iconDatabase.png" class="card-img-top" alt="DATABASE">
-            <div class="card-body" style = "background-color: #475360">
+            <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">COMPANY EMPLOYEE DATABASE</p>
             </div>
         </div>
@@ -126,7 +126,7 @@
     <div class = "vision" >
         <div class = "visionTitle">
                 <p class="pe-4 text-start fw-bold" style ="font-size:8vh; color: #565656">OUR &nbsp; </p>
-                <div class="text-nowrap bg-secondary" style="width: 27vh; height: 12.5vh">
+                <div class="text-nowrap" style="width: 27vh; height: 12.5vh; background-color: #7D4E51">
                     <p class="text-start fw-bold" style ="font-size:8vh; color:white">VISION</p>
                 </div>
         </div>
@@ -139,7 +139,7 @@
     <div class = "mission" >
         <div class = "missionTitle">
             <p class="pe-4 text-start fw-bold" style ="font-size:8vh; color: #565656">OUR &nbsp; </p>
-            <div class="text-nowrap bg-secondary" style="width: 34vh;">
+            <div class="text-nowrap" style="width: 34vh; background-color: #6B9B67">
                 <p class="text-start fw-bold" style ="font-size:8vh; color:white">MISSION</p>
              </div>
         </div>
@@ -149,9 +149,22 @@
         
 
     </div>
+
+    <div class ="partner-container">
+        <div class = "partner-interface">
+            <p class="text-start fw-bold fs-1" style = "color: #565656"> WHO USES SmartHR ?</p>
+        </div>
+
+        <div class ="partner-box">
+            <img src="./img/partners.png" class="img-fluid" alt="mission">
+        </div>
+    </div>
+    
     
 
 </section>
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
