@@ -17,7 +17,7 @@
 }
 
 body {
-    height: 3000px;
+    height: 3500px;
 }
 
 .main-container {
@@ -103,3 +103,25 @@ body {
     align-items: center;
     background-color: aliceblue;
 }
+
+.FAQContainer {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FAQ-interface {
+    padding-bottom: 5vh;
+}
+
+.dropdown-menu .dropdown-item {
+    white-space: normal; /* Menghapus 'white-space' yang sebelumnya diatur ke 'nowrap' */
+    overflow: visible;   /* Menghapus 'overflow' yang sebelumnya diatur ke 'hidden' */
+    text-overflow: unset; /* Menghapus 'text-overflow' yang sebelumnya diatur ke 'ellipsis' */
+    word-wrap: break-word;
+}
+
+
+

@@ -164,9 +164,83 @@
 
 </section>
 
+<section id = "FAQ">
+    <div class = "FAQContainer">
+
+        <div class = "FAQ-interface">
+            <p class="text-start fw-bold fs-1" style = "color: #565656"> FREQUENTLY ASKED QUESTIONS</p>
+        </div>
+
+        <div class="card" style="width: 50rem;">
+
+            <ul class="list-group list-group-flush">
+                <div class="dropdown" >
+                    <button class="btn btn-light dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 50rem;">
+                        How to buy this product for my company?
+                    </button>
+                    <ul class="dropdown-menu" style="width: 50rem;">
+                        <li><a class="dropdown-item"  style="width: 50rem;">Please contact our customer services to ask for more information regarding our product or to make a purchase plan. 
+                        Our pricing and supports are available to see in the support page.</a></li>
+                    </ul>
+                </div>
+            </ul>
+
+            <ul class="list-group list-group-flush">
+                <div class="dropdown" >
+                    <button class="btn btn-light dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 50rem;">
+                        How to register a new account?
+                    </button>
+                    <ul class="dropdown-menu" style="width: 50rem;">
+                        <li><a class="dropdown-item"  style="width: 50rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
+                        Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</a></li>
+                    </ul>
+                </div>
+            </ul>
+
+            <ul class="list-group list-group-flush">
+                <div class="dropdown" >
+                    <button class="btn btn-light dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 50rem;">
+                        Can i make some personalized change for my company?
+                    </button>
+                    <ul class="dropdown-menu" style="width: 50rem;">
+                        <li><a class="dropdown-item"  style="width: 50rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
+                        Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</a></li>
+                    </ul>
+                </div>
+            </ul>
+
+            <ul class="list-group list-group-flush">
+                <div class="dropdown" >
+                    <button class="btn btn-light dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 50rem;">
+                        Does this product came with free maintenance?
+                    </button>
+                    <ul class="dropdown-menu" style="width: 50rem;">
+                        <li><a class="dropdown-item"  style="width: 50rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
+                        Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</a></li>
+                    </ul>
+                </div>
+            </ul>
+
+            <ul class="list-group list-group-flush">
+                <div class="dropdown" >
+                    <button class="btn btn-light dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 50rem;">
+                        How much storage does this product has?
+                    </button>
+                    <ul class="dropdown-menu" style="width: 50rem;">
+                        <li><a class="dropdown-item"  style="width: 50rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
+                        Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</a></li>
+                    </ul>
+                </div>
+            </ul>
+
+        </div>
+
+    </div>
+</section>
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
