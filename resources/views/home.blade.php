@@ -46,24 +46,24 @@
 
             <div class ="main-content">
                 
-                <div class="text-nowrap" style="width: 46.5vh; background-color: #395E78">
-                     <p class="text-start fw-bold" style ="font-size:8vh; color:white">IMPROVING</p>
+                <div class="text-nowrap" style="width: fit-content; background-color: #395E78" id = "contentMain1">
+                     <p class="text-start fw-bold fs-1" style ="color:white">IMPROVING</p>
                 </div>
 
-                <p class="text-start fw-bold" style ="font-size:8vh"> HR QUALITIES.</p>
+                <p class="text-start fw-bold fs-1"  id = "contentMain2"> HR QUALITIES.</p>
 
                 <br>
-                <p class="text-start fs-5 fw-light" style="color:grey">INTEGRATION | COLLABORATION | POWERFUL</p>
+                <p class="text-start fs-5 fw-light" style="color:grey" id = "contentMain3" >INTEGRATION | COLLABORATION | POWERFUL</p>
                 <br>
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control rounded-0 " id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control rounded-1 " id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control rounded-0" id="exampleInputPassword1">
+                        <input type="password" class="form-control rounded-1" id="exampleInputPassword1">
                     </div>
                     <br>
                     <button type="submit" class="btn btn-outline-primary rounded-0 btn-lg">LOGIN</button>
@@ -83,39 +83,39 @@
         <p class="text-start fw-bold fs-1" style = "color: #565656"> WHAT IS SmartHR ?</p>
     </div>
 
-    <div class = "about-card">
-        <div class="rounded-0 card" style="width: 15rem; border: 0;">
-            <img src="./img/iconKMC.png" class="card-img-top" alt="KMC" style = "padding: 5vh">
+    <div class = "about-card" style = "width: 100%">
+        <div class="card rounded-0">
+            <img src="./img/iconKMC.png" class="card-img-top" alt="KMC" style = "padding: 7.5%">
             <div class="card-body" style = "background-color: #395E78">
-                <p class="text-center card-text fw-bold" style = "color : white">KNOWLEDGE MANAGEMENT CENTER</p>
+                <p class="text-center card-text fw-bold fs-6" style = "color : white">KNOWLEDGE MANAGEMENT CENTER</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem; border: 0;">
-            <img src="./img/iconTnD.png" class="card-img-top" alt="TND" style = "padding: 5vh">
+        <div class="rounded-0 card">
+            <img src="./img/iconTnD.png" class="card-img-top" alt="TND" style = "padding: 7.5%">
             <div class="card-body" style = "background-color: #395E78">
-                <p class="text-center card-text fw-bold" style = "color : white">TRAINING AND DEVELOPMENT</p>
+                <p class="text-center card-text fw-bold fs-6" style = "color : white">TRAINING AND DEVELOPMENT</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem; border: 0;">
-            <img src="./img/iconForum.png" class="card-img-top" alt="FORUM" style = "padding: 5vh">
+        <div class="rounded-0 card">
+            <img src="./img/iconForum.png" class="card-img-top" alt="FORUM" style = "padding: 5%">
             <div class="card-body" style = "background-color: #395E78">
-                <p class="text-center card-text fw-bold" style = "color : white">FORUM AND DISCUSSIONS</p>
+                <p class="text-center card-text fw-bold fs-6" style = "color : white">FORUM AND DISCUSSIONS</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem; border: 0;">
-            <img src="./img/iconSchedule.png" class="card-img-top" alt="SCHEDULE" style = "padding: 5vh">
+        <div class="rounded-0 card">
+            <img src="./img/iconSchedule.png" class="card-img-top" alt="SCHEDULE" style = "padding: 15%">
             <div class="card-body" style = "background-color: #395E78">
-                <p class="text-center card-text fw-bold" style = "color : white">SCHEDULE MANAGEMENT CENTER</p>
+                <p class="text-center card-text fw-bold fs-6" style = "color : white">SCHEDULE MANAGEMENT CENTER</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem; border: 0;">
-            <img src="./img/iconDatabase.png" class="card-img-top" alt="DATABASE" style = "padding: 5vh">
+        <div class="rounded-0 card">
+            <img src="./img/iconDatabase.png" class="card-img-top" alt="DATABASE" style = "padding: 17.5%">
             <div class="card-body" style = "background-color: #395E78">
-                <p class="text-center card-text fw-bold" style = "color : white">COMPANY EMPLOYEE DATABASE</p>
+                <p class="text-center card-text fw-bold fs-6" style = "color : white">COMPANY EMPLOYEE DATABASE</p>
             </div>
         </div>
 
@@ -126,7 +126,7 @@
     <div class = "vision" >
         <div class = "visionTitle">
                 <p class="pe-4 text-start fw-bold" style ="font-size:8vh; color: #565656">OUR &nbsp; </p>
-                <div class="text-nowrap" style="width: 27vh; height: 12.5vh; background-color: #7D4E51">
+                <div class="text-nowrap" style="width: fit-content; height: auto; background-color: #7D4E51">
                     <p class="text-start fw-bold" style ="font-size:8vh; color:white">VISION</p>
                 </div>
         </div>
@@ -139,7 +139,7 @@
     <div class = "mission" >
         <div class = "missionTitle">
             <p class="pe-4 text-start fw-bold" style ="font-size:8vh; color: #565656">OUR &nbsp; </p>
-            <div class="text-nowrap" style="width: 34vh; background-color: #6B9B67">
+            <div class="text-nowrap" style="width: fit-content; height: auto; background-color: #6B9B67">
                 <p class="text-start fw-bold" style ="font-size:8vh; color:white">MISSION</p>
              </div>
         </div>
@@ -171,7 +171,7 @@
             <p class="text-start fw-bold fs-1" style = "color: #565656"> FREQUENTLY ASKED QUESTIONS</p>
         </div>
 
-        <div class="card" style="width: 50rem;">
+        <div class="card" style="width: fit-content;">
 
             <ul class="list-group list-group-flush">
                 <div class="dropdown" >
