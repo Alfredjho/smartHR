@@ -238,6 +238,48 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Menu</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-5 col-md-2 mb-3">
+                    <h5>Customer Services</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email: SmartHR@gmail.com</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">WhatsApp: (+62) 858 8512 8972</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Address: Jl. Pegangsaan Timur No. 56</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Working Hours: 9 AM - 5 PM</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Support</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Maintenance Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 mb-3">
+                    <h5>Powered By</h5>
+                    <h1>SmartHR</h1>
+                    <p>© 2023 Company, Inc. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</section>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
