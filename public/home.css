@@ -35,9 +35,9 @@ body {
 .imgMain {
     margin-right: 4vh;
     width: 20%;
-    background: url(./img/HR1.jpeg);
+    background: url(./img/bgHome.png);
     background-size: cover;
-    background-position: center;
+    background-position:-8cm;
 }
 
 .about-interface , .partner-interface{

@@ -28,7 +28,7 @@
             </li>
 
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Home">FAQ</a>
+            <a class="nav-link active" aria-current="page" href="#FAQ">FAQ</a>
             </li>
         </ul>
         </div>
@@ -84,36 +84,36 @@
     </div>
 
     <div class = "about-card">
-        <div class="rounded-0 card" style="width: 15rem;">
-            <img src="./img/iconKMC.png" class="card-img-top" alt="KMC">
+        <div class="rounded-0 card" style="width: 15rem; border: 0;">
+            <img src="./img/iconKMC.png" class="card-img-top" alt="KMC" style = "padding: 5vh">
             <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">KNOWLEDGE MANAGEMENT CENTER</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem;">
-            <img src="./img/iconTnD.png" class="card-img-top" alt="TND">
+        <div class="rounded-0 card" style="width: 15rem; border: 0;">
+            <img src="./img/iconTnD.png" class="card-img-top" alt="TND" style = "padding: 5vh">
             <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">TRAINING AND DEVELOPMENT</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem;">
-            <img src="./img/iconForum.png" class="card-img-top" alt="FORUM">
+        <div class="rounded-0 card" style="width: 15rem; border: 0;">
+            <img src="./img/iconForum.png" class="card-img-top" alt="FORUM" style = "padding: 5vh">
             <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">FORUM AND DISCUSSIONS</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem;">
-            <img src="./img/iconSchedule.png" class="card-img-top" alt="SCHEDULE">
+        <div class="rounded-0 card" style="width: 15rem; border: 0;">
+            <img src="./img/iconSchedule.png" class="card-img-top" alt="SCHEDULE" style = "padding: 5vh">
             <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">SCHEDULE MANAGEMENT CENTER</p>
             </div>
         </div>
 
-        <div class="rounded-0 card" style="width: 15rem;">
-            <img src="./img/iconDatabase.png" class="card-img-top" alt="DATABASE">
+        <div class="rounded-0 card" style="width: 15rem; border: 0;">
+            <img src="./img/iconDatabase.png" class="card-img-top" alt="DATABASE" style = "padding: 5vh">
             <div class="card-body" style = "background-color: #395E78">
                 <p class="text-center card-text fw-bold" style = "color : white">COMPANY EMPLOYEE DATABASE</p>
             </div>
