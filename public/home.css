@@ -17,7 +17,7 @@
 }
 
 body {
-    height: 3500px;
+    height: 3100px;
 }
 
 .main-container {
@@ -51,6 +51,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 12.5vh;
 }
 
 .card img {
@@ -59,9 +60,10 @@ body {
 }
 
 .personalValue {
-    padding-top: 20vh;
+    padding-top: 7.5vh;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .visionTitle, .missionTitle {
@@ -128,6 +130,10 @@ body {
     border: 0;
 }
 
+.container {
+    padding-top: 5vh;
+    width: 100%;
+}
 /* responsive */
 
 @media only screen and (max-width: 1000px) {

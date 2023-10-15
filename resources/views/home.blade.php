@@ -66,7 +66,7 @@
                         <input type="password" class="form-control rounded-1" id="exampleInputPassword1">
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-outline-primary rounded-0 btn-lg">LOGIN</button>
+                    <button type="submit" class="btn btn-outline-primary rounded-1 btn-lg">LOGIN</button>
                 </form>
             </div>
 
@@ -238,7 +238,7 @@
     </div>
 </section>
 
-<section>
+<section id = "Footer">
     <div class="container">
         <footer class="py-5">
             <div class="row">
