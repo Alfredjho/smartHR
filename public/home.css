@@ -130,6 +130,19 @@ body {
     border: 0;
 }
 
+.card-body:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+}
+
+.rounded-0:hover {
+    cursor: pointer;
+    .card-body {
+        cursor: pointer;
+         background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+    }
+}
+
 .container {
     padding-top: 5vh;
     width: 100%;
