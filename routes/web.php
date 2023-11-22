@@ -17,6 +17,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function() {
-    return view('home');
+// Route::get('/home', function() {
+//     return view('home');
+// });
+
+use App\Http\Controllers\homeController;
+
+Route::get('/home', [homeController::class, 'show'])->name('home');
+Route::post('/login', [homeController::class, 'login'])->name('login.post');
+
+
+
+use App\Http\Controllers\DashboardController;
+
+Route::middleware(['web', 'auth'])->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'show'])->name('dashboard');
 });
+
+use App\Http\Controllers\UserController;
+Route::get('/insert', [UserController::class, 'insertUser']);
+
+

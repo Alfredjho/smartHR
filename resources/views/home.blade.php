@@ -1,40 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>smartHR</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="home.css">
-</head>
-<body>
+@extends('template')
+@section('Title', 'SmartHR')
+@section('Style')
+  <link rel="stylesheet" href="home.css">
+@endsection
+
+@section('Content')
 
 <section id="Home">
-    <nav class="navbar fixed-top navbar-expand-lg bg-light-subtle" >
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">SmartHR</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-            </li>
-
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#AboutUs">About Us</a>
-            </li>
-
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#FAQ">FAQ</a>
-            </li>
-        </ul>
-        </div>
-    </div>
-    </nav>
-
+    
     <div class="main-interface">
 
 
@@ -54,16 +27,26 @@
 
                 <br>
                 <p class="text-start fs-5 fw-light" style="color:grey" id = "contentMain3" >INTEGRATION | COLLABORATION | POWERFUL</p>
+                
+                @if (session()->has('error'))
+                <div class="alert alert-danger" role="alert">
+                    {{ session()->get('error') }}
+                </div>
+                @endif
+                
                 <br>
-                <form>
+                <form method="POST" action="{{ route('login.post') }}">
+
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control rounded-1 " id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    @csrf
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" name ="email" class="form-control rounded-1 " id="email" aria-describedby="emailHelp" required>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control rounded-1" id="exampleInputPassword1">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" name = "password" class="form-control rounded-1" id="password" required>
                     </div>
                     <br>
                     <button type="submit" class="btn btn-outline-primary rounded-1 btn-lg">LOGIN</button>
@@ -239,10 +222,10 @@
 </section>
 
 <section id = "Footer">
-    <div class="container">
-        <footer class="py-5">
-            <div class="row">
-                <div class="col-6 col-md-2 mb-3">
+    <div class="container mt-3">
+        <footer class="d-flex justify-content-center">
+       
+                <div class="col-5 col-md-2 mb-3">
                     <h5>Menu</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
@@ -251,7 +234,7 @@
                     </ul>
                 </div>
 
-                <div class="col-5 col-md-2 mb-3">
+                <div class="col-5 col-md-4 mb-3">
                     <h5>Customer Services</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email: SmartHR@gmail.com</a></li>
@@ -261,7 +244,7 @@
                     </ul>
                 </div>
 
-                <div class="col-6 col-md-2 mb-3">
+                <div class="col-5 col-md-3 mb-3">
                     <h5>Support</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
@@ -271,7 +254,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-5 mb-3">
+                <div class="col-5 col-md-3 mb-3">
                     <h5>Powered By</h5>
                     <h1>SmartHR</h1>
                     <p>© 2023 Company, Inc. All rights reserved.</p>
@@ -280,9 +263,3 @@
         </footer>
     </div>
 </section>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-</body>
-</html>
