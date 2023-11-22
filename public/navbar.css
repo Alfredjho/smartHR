@@ -1,0 +1,11 @@
+.navbar-item:hover {
+    background: #BDCFDC;
+    color: #365982;
+    font-weight: bold;
+}
+
+.navbar-item.active {
+    background: #BDCFDC;
+    color: #365982;
+    font-weight: bold;
+}

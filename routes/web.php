@@ -37,4 +37,19 @@ Route::middleware(['web', 'auth'])->group(function () {
 use App\Http\Controllers\UserController;
 Route::get('/insert', [UserController::class, 'insertUser']);
 
+use App\Http\Controllers\profileController;
+
+Route::middleware(['web', 'auth'])->group(function () {
+    Route::get('/profile', [profileController::class, 'show'])->name('profile');
+});
+
+Route::get('/profile/edit', [UserController::class, 'editBio'])->name('editBio');
+Route::patch('/profile/updateBio', [UserController::class, 'updateBio'])->name('updateBio');
+
+Route::group(['middleware' => ['web']], function () {
+    Route::post('/update-profile', [UserController::class, 'updateProfile'])->name('updateProfile');
+});
+
+
+
 
