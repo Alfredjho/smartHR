@@ -13,17 +13,17 @@ class UserController extends Controller
     {
         $user = new User;
         
-        $user->employee_id = 'E001';
-        $user->name = 'Aldi Taher';
+        $user->employee_id = 'E002';
+        $user->name = 'Nissa Sabyan';
         $user->department_id = '3';
 
-        $user->position = 'Head of Development';
+        $user->position = 'Senior Supervisor';
 
-        $user->email = 'aldi@gmail.com';
-        $user->password = bcrypt('taher');
+        $user->email = 'nissa@gmail.com';
+        $user->password = bcrypt('sabyan');
 
         $user->bio = 'Lorem Ipsum blablablablabalbalbalablablabalbla';
-        $user->image = 'img/profile.png';
+        $user->image = 'img/nissa.jpeg';
         $user->save();
     }
 
@@ -64,4 +64,14 @@ class UserController extends Controller
     }
 
 
+    public function getUsersByDepartment($department_id) {
+        $users = User::where('department_id', $department_id)->get();
+        return response()->json($users);
+    }
+
+    public function getUserbyId($employee_id){
+        $userSelected = User::where('employee_id', $employee_id)->first();
+        $user = Auth::user();
+        return view('userDetail', compact('userSelected', 'user'));
+    }
 }

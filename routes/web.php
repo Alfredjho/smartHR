@@ -50,6 +50,18 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/update-profile', [UserController::class, 'updateProfile'])->name('updateProfile');
 });
 
+use App\Http\Controllers\EventController;
+
+Route::get('/get-schedule', [EventController::class , 'show']);
+Route::post('/add-event', [EventController::class, 'store']);
+Route::post('/delete-event', [EventController::class, 'delete']);
+Route::get('/schedule', [EventController::class, 'index'])->name('schedule');
 
 
+use App\Http\Controllers\StructureController;
 
+Route::get('/structure', [StructureController::class, 'show'])->name('structure');
+
+
+Route::get('/get-users/{department_id}', [UserController::class, 'getUsersByDepartment'])->name('get-users');
+Route::get('/view-user/{employee_id}', [UserController::class, 'getUserById'])->name('get-user');

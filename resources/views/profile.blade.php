@@ -15,7 +15,7 @@
     <div class="containerCard">
         <div class="profileCard d-flex justify-content-start">
             <div class="d-flex flex-column align-items-center justify-content-center">
-                <img src="{{ asset($user->image) }}" alt="" style="width: 12vw;">
+                <img src="{{ asset($user->image) }}" alt="" style="width: 12vw; height: 12vw;">
                 <h6>{{ $user->position }}</h6>
                 {{ $user->name }}
             </div>
