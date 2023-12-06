@@ -65,3 +65,21 @@ Route::get('/structure', [StructureController::class, 'show'])->name('structure'
 
 Route::get('/get-users/{department_id}', [UserController::class, 'getUsersByDepartment'])->name('get-users');
 Route::get('/view-user/{employee_id}', [UserController::class, 'getUserById'])->name('get-user');
+
+use App\Http\Controllers\tndController;
+Route::get('/tnd', [tndController::class, 'show'])->name('tnd');
+
+Route::get('/mycourses', [tndController::class, 'showMyCourses'])->name('mycourses');
+
+Route::get('/courses/{courseId}', [tndController::class, 'showCourse'])->name('course.detail');
+Route::post('/courses/enroll/{courseId}', [tndController::class, 'enroll'])->name('course.enroll');
+
+use App\Http\Controllers\PostController;
+
+Route::get('/forum', [PostController::class, 'index'])->name('forum');
+Route::POST('/add-post', [PostController::class, 'store']);
+Route::delete('/delete-post/{post_id}', [PostController::class, 'destroy']);
+Route::POST('/update-post', [PostController::class, 'update']);
+
+
+

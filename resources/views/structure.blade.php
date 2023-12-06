@@ -4,7 +4,7 @@
 @section('Content')
 
 <h1>Structure</h1>
-<hr>
+<hr style = "width: 50%; background: #BDCFDC;">
 
 <form action="">
     <select name="Department" id="DepartmentSelect" onchange="showUsers()" style="width: 40vh; padding: 10px; border: 1px solid #365982;">
@@ -85,6 +85,7 @@
             cardElement.style.marginTop = "20px";
             cardElement.style.width = "12vw";
             cardElement.style.cursor = "pointer";
+            cardElement.style.transition = "transform 0.3s ease";
 
             cardElement.addEventListener("click", function () {
             // Ganti "halaman-tujuan" dengan URL atau path halaman tujuan Anda
@@ -92,7 +93,16 @@
             console.log(user.employee_id);
             window.location.href = `/view-user/${user.employee_id}`;
 
-        });
+            });
+
+            // Add event listener for hover effect
+            cardElement.addEventListener("mouseover", function () {
+                cardElement.style.transform = "scale(1.1)"; // Apply scale on hover
+            });
+
+            cardElement.addEventListener("mouseout", function () {
+                cardElement.style.transform = "scale(1)"; // Reset scale on mouseout
+            });
 
             var profileCardElement = document.createElement("div");
             profileCardElement.className = "profileCard d-flex justify-content-start";

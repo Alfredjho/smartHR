@@ -2,7 +2,7 @@
 
 @section('Title', 'KMC')
 @section('Style')
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="{{asset ('css/profile.css')}}">
 @endsection
 
 @section('Content')
@@ -32,6 +32,11 @@
         <br>
 
         <button class="btn btn-primary" onclick="updateProfile()">Save</button>
+
+        <br>
+
+
+
     </div>
 
     <div class="isiProfile">

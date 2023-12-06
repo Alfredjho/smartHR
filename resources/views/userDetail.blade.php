@@ -2,7 +2,7 @@
 
 @section('Title', 'Structure')
 @section('Style')
-    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="{{ asset('css/detail.css') }}" />
 @endsection
 
 @section('Content')
@@ -12,10 +12,24 @@
 
 <div class="bar"></div>
 
-<div class="profile-container d-flex justify-content-between">
+<br>
+
+<li class = "nav-link">
+    
+    <a href = "{{route('structure')}}">
+        <img src="{{asset ('img/backIcon.png')}}" alt="back">
+        Back
+    </a>
+
+</li>
+
+<br>
+
+
+<div class="profile-container">
     <div class="containerCard">
-        <div class="profileCard d-flex justify-content-start">
-            <div class="d-flex flex-column align-items-center justify-content-center">
+        <div class="profileCard">
+            <div class="cardContent">
                 <img src="{{ asset($userSelected->image) }}" alt="" style="width: 12vw; height: 12vw;">
                 <h6>{{ $userSelected->position }}</h6>
                 {{ $userSelected->name }}

@@ -14,16 +14,16 @@ class UserController extends Controller
         $user = new User;
         
         $user->employee_id = 'E002';
-        $user->name = 'Nissa Sabyan';
-        $user->department_id = '3';
+        $user->name = 'Aldi Taher';
+        $user->department_id = '2';
 
-        $user->position = 'Senior Supervisor';
+        $user->position = 'Staff';
 
-        $user->email = 'nissa@gmail.com';
-        $user->password = bcrypt('sabyan');
+        $user->email = 'aldi@gmail.com';
+        $user->password = bcrypt('taher');
 
         $user->bio = 'Lorem Ipsum blablablablabalbalbalablablabalbla';
-        $user->image = 'img/nissa.jpeg';
+        $user->image = 'img/alditaher.jpg';
         $user->save();
     }
 

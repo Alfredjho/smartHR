@@ -1,0 +1,105 @@
+.bar {
+    width:50%; 
+    height: 1px; 
+    background: #BDCFDC;
+}
+
+.see {
+    text-decoration: underline;
+    color: #395E78;
+    cursor: pointer;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    max-height: fit-content;
+}
+
+.courseContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Add this line to create space between cards */
+    align-items: center;
+}
+
+.infoContainer{
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.atas{
+    height: 100%;
+    background-color: #ECF1F3;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 12vh;
+    background-color: #395E78;
+    color: white;
+    border-radius: 0px;
+}
+
+.detail{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.profileCard {
+    width: calc(33.33% - 20px);
+    flex-shrink: 0;
+    height: fit-content;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    width: 65%; /* Pastikan cardContainer mengambil seluruh lebar profileCard */
+    transition: transform 0.3s ease;
+}
+
+.cardContainer:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.detail{
+    display: none;
+}
+
+.judul {
+    display: none;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cardContainer p{
+    display: none;
+}
+
+.cardContainer h3, .cardContainer h1, .cardContainer h2 {
+    display: none;
+}
+
+.detail {
+    text-align: justify;
+}
+
+.courseOutline{
+    margin-left: 50px;
+    text-align: justify;
+}

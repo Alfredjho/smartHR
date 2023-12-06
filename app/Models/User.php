@@ -52,4 +52,19 @@ class User extends Authenticatable
         return $this->belongsTo(Department::class);
     }
     
+    public function courses()
+    {
+        return $this->belongsToMany(Course::class, 'course_user', 'user_id', 'course_id')->withTimestamps();
+    }
+
+    public function enrollCourse($courseId)
+    {
+        if (!$this->courses()->where('courses.id', $courseId)->exists()) {
+            $this->courses()->attach($courseId, ['enrolled_at' => now()]);
+        }
+    }
+
+    public function posts(){
+        return $this->hasMany(Post::class);
+    }
 }
