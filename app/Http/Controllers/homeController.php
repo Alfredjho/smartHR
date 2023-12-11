@@ -33,4 +33,10 @@ class homeController extends Controller
         }
     }
 
+    public function logout()
+    {
+        Auth::logout(); // Melakukan proses logout
+        return redirect('/home'); // Redirect ke halaman utama atau halaman login
+    }
+
 }

@@ -59,7 +59,15 @@
             </div>
         </div>
     </div>
+
+
 </div>
+
+<div class = "d-flex justify-content-end" style = "margin-top: 6vh; width: 73%; height: 3vh; border-radius: 10px; color: white;">
+    <a href="{{ route('logout') }}">Logout</a>
+</div>
+
+
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script>

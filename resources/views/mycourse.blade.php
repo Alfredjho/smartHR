@@ -42,8 +42,6 @@
                         foreach ($items as &$item) {
                             $item = str_replace('<li>', '', $item);
                         }
-
-
                         // Periksa apakah ada item sebelum menampilkan elemen ol
                         if (!empty($items)) {
                             $olHTML = '<ol><li> ' . implode('</li><li> ', $items) . '</li></ol>';
@@ -53,9 +51,6 @@
                         }
                         ?>
                     </div>
-                    
-
-
                 </div>
             </div>
         @empty

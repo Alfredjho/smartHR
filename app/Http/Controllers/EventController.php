@@ -91,28 +91,11 @@ class EventController extends Controller
                 'time' => $event->time,
             ];
         }
-
         // Convert the associative array to a simple array
         $formattedEvents = array_values($formattedEvents);
 
         // You can now return the formatted events or perform any other logic
         return response()->json(['events' => $formattedEvents]);
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Event $event)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, Event $event)
-    {
-        //
     }
 
     public function delete(Request $request)

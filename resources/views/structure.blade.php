@@ -1,6 +1,6 @@
 @extends('authtemplate')
 
-@section('Title', 'KMC')
+@section('Title', 'Structure')
 @section('Content')
 
 <h1>Structure</h1>

@@ -23,7 +23,7 @@
             <ul class="navbar-nav me-5 mb-2 mb-lg-0" style="flex: 1; display: flex; justify-content: center;">
 
                 <li class="nav-item">
-                    <a class="nav-link navbar-item {{ request()->routeIs('dashboard') ? 'active' : '' }} px-2" aria-current="page" href="{{route('dashboard')}}">KMC</a>
+                    <a class="nav-link navbar-item {{ request()->routeIs('dashboard') ? 'active' : '' }} px-2" aria-current="page" href="{{route('dashboard')}}">Dashboard</a>
                 </li>
 
                 <li class="nav-item">

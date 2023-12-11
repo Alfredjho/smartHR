@@ -9,5 +9,4 @@ class CourseUser extends Pivot
     protected $table = 'course_user';
     protected $dates = ['enrolled_at'];
 
-   
 }
